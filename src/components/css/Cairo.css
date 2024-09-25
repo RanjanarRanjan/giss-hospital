@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Cairo-light";
+    src: url("../Font/Cairo-Light.woff2") format("woff2"),
+      url("../Font/Cairo-Light.woff") format("woff"),
+      url("../Font/Cairo-Light.ttf") format("truetype");
+  
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+      font-family: "Cairo-black";
+      src: url("../Font/Cairo-Black.woff2") format("woff2"),
+        url("../Font/Cairo-Black.woff") format("woff"),
+        url("../Font/Cairo-Black.ttf") format("truetype");
+    
+      font-weight: 900;
+      font-display: swap;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Cairo-bold";
+      src: url("../Font/Cairo-Bold.woff2") format("woff2"),
+        url("../Font/Cairo-Bold.woff") format("woff"),
+        url("../Font/Cairo-Bold.ttf") format("truetype");
+    
+      font-weight: 700;
+      font-display: swap;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Cairo-medium";
+      src: url("../Font/Cairo-Medium.woff2") format("woff2"),
+        url("../Font/Cairo-Medium.woff") format("woff"),
+        url("../Font/Cairo-Medium.ttf") format("truetype");
+    
+      font-weight: 500;
+      font-display: swap;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Cairo-regular";
+      src: url("../Font/Cairo-Regular.woff2") format("woff2"),
+        url("../Font/Cairo-Regular.woff") format("woff"),
+        url("../Font/Cairo-Regular.ttf") format("truetype");
+    
+      font-weight: 400;
+      font-display: swap;
+      font-style: normal;
+    }
+    
+    
+    

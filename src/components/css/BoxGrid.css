@@ -1,0 +1,42 @@
+.grid-container {
+    padding: 30px 0;
+    width: 75%;
+    margin: 0 auto; /* Centers the grid container horizontally */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center; /* Aligns the boxes horizontally */
+    align-items: center;   /* Aligns the boxes vertically */
+  }
+  
+  .box {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Ensures nothing exceeds the box boundaries */
+  }
+  
+  .box-image {
+    width: 100%; /* Ensures all images are the same width */
+    height: 80%; /* 3/4 of the box height */
+    object-fit: cover; /* Maintains aspect ratio and covers the available space */
+    border-radius: 10px 10px 0 0; /* Adds a rounded top edge */
+  }
+  
+  .box-text {
+    padding: 20px;
+    height: 20%; /* 1/4 of the box height */
+    font-size: 16px;
+    font-family: "Cairo-Bold";
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
